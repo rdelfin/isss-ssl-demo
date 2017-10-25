@@ -2,6 +2,6 @@
 
 Useful commands:
 
-```tcpdump -i eth1 'port 5000'```
+```sudo tcpdump -i lo 'port 5000' -w tcp_out.txt```
 
-Generates TCP dump on port 5000 and interface eth1
+Generates TCP dump on port 5000 and interface eth1 and creates file called tcp_out.txt (for wireshark)
